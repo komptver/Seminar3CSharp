@@ -1,4 +1,4 @@
-﻿// Task2. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+﻿/* Task2. Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
 double DinstanceAB(double xa, double ya, double za, double xb, double yb, double zb)
 {
@@ -20,3 +20,23 @@ Console.WriteLine("Input an z-coordinate of point b: ");
 double zb = Convert.ToDouble(Console.ReadLine());
 double distance = DinstanceAB(xa,ya,za,xb,yb,zb);
 Console.WriteLine($"distance between three points a and b is {distance}");
+
+*/
+/* Task3. Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+void Cube (int number)
+{
+    int x = 1;
+    int stepen = 3;
+    while(x <= number)
+    {
+        Console.Write($"{Math.Pow(x, stepen)} ");
+        x++;
+    }
+}     
+  Console.Write("Input an integer number ");
+  int number = Convert.ToInt32(Console.ReadLine());
+  Console.WriteLine("The series of squares of number");
+  Cube(number);
+
+  */
